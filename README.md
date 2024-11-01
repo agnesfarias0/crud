@@ -2,6 +2,7 @@
 Criação de um sistema CRUD utilizando Java Spring Boot e MySQL, seguindo a vídeo aula do canal Build &amp; Run no Youtube.
 
 Passo 1 - Ir em start.spring.io e gerar projeto com dependências Spring Web, Spring Data JPA, MySql Driver,  Spring Data JDBC e Lombok.
+/n
 Passo 2 - Adicionar arquivo compose.yml com seguinte conteúdo: 
 
 services:
