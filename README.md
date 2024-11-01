@@ -46,6 +46,6 @@ Service (anotação @Service) -> tipo de classe que chama repositórios para obt
 
 Referências: 
 
-https://docs.spring.io/spring-boot/index.html
+[https://docs.spring.io/spring-boot/index.html](https://spring.io/guides/gs/accessing-data-mysql)
 
 https://youtu.be/Tnl4YnB6E54
