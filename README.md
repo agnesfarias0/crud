@@ -17,10 +17,10 @@ services:
     ports:
       - '3306:3306'
 
-  Passo 3 - No terminal, dentro do diretório do programa, rodar docker compose up.
-  /n
-  Passo 4 - Adicionar o seguinte conteúdo no application.properties:
-  /n
+Passo 3 - No terminal, dentro do diretório do programa, rodar docker compose up.
+/n
+Passo 4 - Adicionar o seguinte conteúdo no application.properties:
+/n
 
 spring.jpa.hibernate.ddl-auto=update
 spring.datasource.url=jdbc:mysql://localhost:3306/mydatabase
