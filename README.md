@@ -2,6 +2,7 @@
 Criação de um sistema CRUD utilizando Java Spring Boot e MySQL, seguindo a vídeo aula do canal Build &amp; Run no Youtube.
 
 Passo 1 - Ir em start.spring.io e gerar projeto com dependências Spring Web, Spring Data JPA, MySql Driver,  Spring Data JDBC e Lombok.
+
 Passo 2 - Adicionar arquivo compose.yml com seguinte conteúdo: 
 
 services:
@@ -17,6 +18,7 @@ services:
       - '3306:3306'
 
 Passo 3 - No terminal, dentro do diretório do programa, rodar docker compose up.
+
 Passo 4 - Adicionar o seguinte conteúdo no application.properties:
 
 spring.jpa.hibernate.ddl-auto=update
@@ -26,7 +28,8 @@ spring.datasource.password=secret
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.show-sql=true
 
-  Passo 5 - Criar e configurar entidades e outros arquivos, etc.
+
+Passo 5 - Criar e configurar entidades e outros arquivos, etc.
 
 ------------------------------------------------------------------------
 
